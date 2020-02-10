@@ -15,8 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EYM-cc-enJ">
+                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="InputTextField" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EYM-cc-enJ">
                                 <rect key="frame" x="132" y="431" width="150" height="34"/>
+                                <accessibility key="accessibilityConfiguration" identifier="InputTextField"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="awF-eC-JEg"/>
                                 </constraints>
